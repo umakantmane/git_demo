@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="{% static 'css/new.css' %}" type="text/css" rel="stylesheet">
+
+    <script type="text/javascript" src="{% static 'js/new.js' %}"></script>
+
+    <style>
+
+        .demo{
+
+            color:purple;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+<video width="400" controls>
+  <source src="{% static 'videos/xyz.mp4' %}" type="video/mp4">
+
+   Your browser does not support HTML5 video.
+</video>
+
+
+<!--<button onclick="clickAlert()"> Click Me</button>
+
+<button onclick="clickAlertTwo()"> Click Me too</button>
+
+<h2 class="test">External CSS</h2>
+<h2 class="demo">Internal CSS</h2>
+<h2 style="color:blue;">Inline CSS</h2>-->
+
+<!--<img src="{% static 'images/Infobits_AdServers_r1.png' %}" height="400" width="400">-->
+
+</body>
+</html>

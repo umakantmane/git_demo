@@ -29,7 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
-
+#=================================
+#================
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_COOKIE_AGE = 10
 SESSION_SAVE_EVERY_REQUEST = True
